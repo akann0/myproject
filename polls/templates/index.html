@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>soccer</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}"/>
+</head>
+<body>
+    <p style="color: blue"> {{ game.home.name }}</p>
+    <p style="color: green"> {{ game.homeScore }}</p>
+    <p style="color: red"> {{ game.away.name }}</p>
+    <p style="color: lightcoral"> {{ game.awayScore }}</p>
+
+    <!-- lets make a soccer stadium-->
+    <section class="pitch">
+        <div class="field left">
+            <div class="penalty-area">
+            </div>
+        </div>
+        <div class="field right">
+            <div class="penalty-area">
+            </div>
+        </div>
+        <div class="center-circle"></div>
+      <div class="home-team">
+        <div class="player one"></div>
+        <div class="player two"></div>
+        <div class="player three"></div>
+        <div class="player four"></div>
+        <div class="player five"></div>
+        <div class="player six"></div>
+        <div class="player seven"></div>
+        <div class="player eight"></div>
+        <div class="player nine"></div>
+        <div class="player ten"></div>
+        <div class="player eleven"></div>
+      </div>
+      <div class="visitor-team">
+        <div class="player one"></div>
+        <div class="player two"></div>
+        <div class="player three"></div>
+        <div class="player four"></div>
+        <div class="player five"></div>
+        <div class="player six"></div>
+        <div class="player seven"></div>
+        <div class="player eight"></div>
+        <div class="player nine"></div>
+        <div class="player ten"></div>
+        <div class="player eleven"></div>
+      </div>
+    </section>
+
+</body>

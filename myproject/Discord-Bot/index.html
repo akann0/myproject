@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Soccer Page</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Soccer Page</h1>
+        </div>
+        <div class="content">
+            <p>Here is some text generated from main.py</p>
+            <p>
+                <?php
+                    $output = shell_exec('python main.py');
+                    echo "<pre>$output</pre>";
+                ?>
+            </p>
+        </div>
+        <div class="footer">
+            <p>Here is some text</p>
+        </div>
+</body>

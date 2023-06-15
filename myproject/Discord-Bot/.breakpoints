@@ -1,0 +1,20 @@
+{
+  "files": {
+    "leagueinfo.csv": [
+      {
+        "id": "efa4a392-f2b9-4477-af99-176389d912b0",
+        "line": 17,
+        "version": 0,
+        "index": 216
+      }
+    ],
+    "seqcount.csv": [
+      {
+        "id": "ed2ed5df-c967-4367-aac9-9042df659d91",
+        "line": 1,
+        "version": 1231,
+        "index": 29
+      }
+    ]
+  }
+}
